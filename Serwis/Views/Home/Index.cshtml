@@ -1,0 +1,13 @@
+﻿@model  IEnumerable<string>
+@{ Layout = null; }
+
+<h2>Cechy języka C#</h2>
+<body>
+    <ul>
+        @foreach(string s in Model)
+        {
+            <li>@s</li>
+        }
+    </ul>
+</body>
+
