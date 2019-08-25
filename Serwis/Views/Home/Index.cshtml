@@ -1,13 +1,24 @@
-﻿@model  IEnumerable<string>
-@{ Layout = null; }
+﻿@model  IEnumerable<Product>
 
-<h2>Cechy języka C#</h2>
-<body>
-    <ul>
-        @foreach(string s in Model)
-        {
-            <li>@s</li>
-        }
-    </ul>
-</body>
+<ul>
+    @foreach (Product p in Model)
+    {
+        <h2>@p.Name</h2>
+        <p>
+            Cena: @($"{p.Price:C2}")<br/>
+            Kategoria: @p.Category<br/>
+            Opis: @p.Description<br/>
+            Stan: 
+            @if(ViewBag.StockLevel > 0)
+            {
+                <b>W magazynie</b>
+            }
+            else
+            {
+                <b>Brak</b>
+            }
+        </p>
+
+    }
+</ul>
 

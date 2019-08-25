@@ -21,3 +21,6 @@ C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Ra
 C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Serwis.RazorTargetAssemblyInfo.cs
 C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Serwis.Views.pdb
 C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Serwis.csproj.CopyComplete
+C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_BasicLayout.g.cshtml.cs
+C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\szych\source\repos\pigwejq\Excercises\Serwis\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
